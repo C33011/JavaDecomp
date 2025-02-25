@@ -1,19 +1,15 @@
 # Java Bytecode Explorer
 
-This is a tool I made to help understand Java bytecode better. It lets you look inside `.class` files, see what's going on under the hood, and even debug them step by step.
+This is a python program made to act as a decompiler and debugger for Java bytecode. It lets you open .class files to see how they are compiled, and see how the bytecode runs.
 
-## What It Does
+## Features
 
 - Opens `.class` files and shows you the Java source code inside
 - Shows you the actual bytecode instructions
 - Lets you debug through the code instruction by instruction
 - Has a nice file browser to find your class files
 - Shows how different classes are connected to each other
-
-## Why I Made This
-
-I was always curious about what happens to Java code after it's compiled. Sure, you can use tools like JD-GUI, but I wanted something that could also help me understand the bytecode better. Plus, it was a fun project to work on!
-
+  
 ## Getting Started
 
 You'll need:
@@ -68,7 +64,6 @@ This is perfect for seeing how basic Java operations work in bytecode.
 If something's not working:
 - Make sure Java is installed properly
 - Check that you're opening a valid `.class` file
-- If it crashes, try running it again (hey, it happens!)
 
 ## Want to Help?
 
